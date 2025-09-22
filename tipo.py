@@ -15,6 +15,7 @@ print (lista)
 
 lista[2] = 6
 print (lista[3])
+print (lista)
 
 diccionario = {"nombre": "Antonio", "edad": 20}
 print (diccionario["edad"])
