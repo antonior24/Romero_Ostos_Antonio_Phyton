@@ -5,6 +5,7 @@ class TestCalculadora(unittest.TestCase):
         print("Prueba de suma correcta")
         calculadora = Calculadora(8,2)
         self.assertNotEqual(calculadora.sumar(), 10)
+        self.assertEqual(calculadora.sumar(), 10)
     
     def test_restar(self):
         calculadora = Calculadora(5, 3)
