@@ -20,5 +20,4 @@ class Calculadora:
 print(Calculadora.sumar(5, 3))
 print(Calculadora().restar(5, 3))
 print(Calculadora().multiplicar(5, 3))
-print(Calculadora().dividir(5, 0))
 print(Calculadora().dividir(5, 2))
