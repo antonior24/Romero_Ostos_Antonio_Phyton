@@ -14,3 +14,4 @@ print(animal2.hacer_sonido("Miau"))
 print (animal1.nombre)    
 
 print (animal2.especie)
+print (animal1.hacer_sonido("Woof"))
